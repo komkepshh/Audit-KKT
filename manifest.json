@@ -1,15 +1,12 @@
 {
-  "name": "Dashboard Pemantauan Kepatuhan APD",
-  "short_name": "APD Monitor",
-  "description": "Dashboard pemantauan kepatuhan penggunaan Alat Pelindung Diri (APD) rumah sakit",
-  "start_url": "./index.html",
+  "name": "Audit Kepatuhan Kebersihan Tangan - RSU Surya Husadha Denpasar",
+  "short_name": "Audit KKT",
+  "description": "Aplikasi audit kepatuhan kebersihan tangan RSU Surya Husadha Denpasar",
+  "start_url": ".",
   "display": "standalone",
-  "orientation": "any",
-  "background_color": "#0f4c75",
-  "theme_color": "#0f4c75",
-  "lang": "id",
-  "scope": "./",
-  "categories": ["medical", "productivity", "utilities"],
+  "background_color": "#ffffff",
+  "theme_color": "#1e3a8a",
+  "orientation": "portrait-primary",
   "icons": [
     {
       "src": "icon-192.png",
@@ -22,23 +19,6 @@
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
-    }
-  ],
-  "screenshots": [],
-  "shortcuts": [
-    {
-      "name": "Input Observasi",
-      "short_name": "Input",
-      "description": "Catat observasi APD baru",
-      "url": "./index.html#input",
-      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
-    },
-    {
-      "name": "Data Laporan",
-      "short_name": "Laporan",
-      "description": "Lihat histori laporan APD",
-      "url": "./index.html#laporan",
-      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
     }
   ]
 }
